@@ -1,0 +1,24 @@
+# ===== 隐私 / 本地数据：绝不入库 =====
+# 真实台账数据库（含真实 QQ 号 + 绑定手机），仅在本地存在
+qq_keeper.db
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ===== Python 运行时产物 =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ===== 编辑器 / 系统 =====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ===== 本地配置 / 密钥 =====
+.env
+*.local
